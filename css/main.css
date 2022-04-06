@@ -1,0 +1,254 @@
+/* learn more section */
+
+.services {
+	background: url("../img/blob.png") 85% 210% no-repeat #F5F5F5;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.services__content {
+	max-width: 1020px;
+}
+
+.services__subtitle {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	margin: 0px 0px 33px 0px;
+}
+
+.services__subtitle::before {
+	content: "";
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	background: url("../img/mark-2.png") 0 0 /20px no-repeat;
+	margin: 0px 18px 0px 0px;
+}
+
+.services__title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0px 0px 80px 0px;
+	text-align: left;
+}
+
+.services__cards {
+	gap: 24px;
+}
+
+.cards-services {
+	display: flex;
+	flex: 1 1 33.333%;
+	flex-wrap: wrap;
+	margin: 0px 0px 66px 0px;
+}
+
+.cards-services__item {
+	/* row-gap: 24px; */
+	/* background-color: grey; */
+
+}
+
+.cards-services__content {
+	width: 324px;
+	height: 340px;
+	padding: 50px 44px;
+	background: #FFFFFF;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards-services__image {
+	display: block;
+	padding: 0px 0px 23px 0px;
+}
+
+.cards-services__title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 137%;
+	text-align: center;
+	color: #F2726F;
+	padding: 0px 0px 20px 0px;
+}
+
+.cards-services__text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+
+.cards-services__item--selected {}
+
+.cards-services__learn-more {
+	display: inline-block;
+	margin: 0px 0px 113px 0px;
+}
+
+/* impact section */
+
+.impact {
+	margin: 100px 0px 165px 0px;
+	padding: 0px 0px 223px 0px;
+	background: url("../img/impact-bg.png") 80% 0 no-repeat #29C3BE;
+	position: relative;
+}
+
+
+.impact__first-row {
+	min-height: 240px;
+	margin: 0px 0px 76px 0px;
+	display: flex;
+}
+
+.section-text {
+	flex: 0 1 526px;
+}
+
+.impact__subtitle::before {
+	content: "";
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	background: url("../img/mark.svg") 0 5px /20px no-repeat;
+	margin: 0px 18px 0px 0px;
+
+}
+
+.impact__subtitle {
+	padding: 111px 0px 0px 0px;
+	margin: 0px 0px 32px 0px;
+	color: #FFFFFF;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+
+}
+
+
+.impact__title {
+	max-width: 411px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #FFFFFF;
+}
+
+.section-image {}
+
+.section-image__image {
+	display: block;
+	left: 50%;
+	top: -80px;
+	position: absolute;
+	width: 527px;
+	height: 336px;
+	border-radius: 40px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.impact__second-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.impact-card {
+	display: flex;
+}
+
+.impact-card:not(:last-child) {
+	margin: 0px 24px 0px 0px;
+}
+
+.impact-card__icon {
+	display: block;
+	margin: 0px 11px 0px 0px;
+}
+
+.impact-card__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.impact-card__title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #FFFFFF;
+	margin: 0px 0px 3px 0px;
+}
+
+.impact-card__subtitle {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+.impact__appointment {}
+
+.appointment {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 560px;
+	width: 100%;
+	background: blue;
+	max-width: 1020px;
+	height: 150px;
+	background: #5D62B5;
+	border-radius: 20px;
+	padding: 46px 70px;
+
+}
+
+.appointment__title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 125%;
+	color: #FFFFFF;
+	max-width: 562px;
+	margin: 0px 102px 0px 0px;
+}
+
+.appointment__button {}
